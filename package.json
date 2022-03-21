@@ -8,7 +8,7 @@
     "server": "nodemon",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "node app"
+    "build": "npm run build --prefix client"
   },
   "author": "oguzhanaliferli",
   "dependencies": {
